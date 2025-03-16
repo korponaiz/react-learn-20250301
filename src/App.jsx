@@ -5,6 +5,7 @@ import Card from './Card.jsx';
 import UseStateTest from './UseStateTest.jsx';
 import Counter from './Counter.jsx';
 import EventHandlerTest from './EventHandlerTest.jsx';
+import ColorPicker from './ColorPicker.jsx';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <UseStateTest></UseStateTest>
       <Counter></Counter>
       <EventHandlerTest></EventHandlerTest>
+      <ColorPicker></ColorPicker>
       <Footer></Footer>
     </>
   );

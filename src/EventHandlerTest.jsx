@@ -53,7 +53,9 @@ function EventHandlerTest(){
                     <input type="radio" value="Delivery" 
                             checked={shipping === "Delivery"} 
                             onChange={handleShippingChange}/>
+                    "Delivery"
                 </label>
+                <p>Shipping: {shipping}</p>
             </div>
 
     )
