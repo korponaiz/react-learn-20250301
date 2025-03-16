@@ -1,0 +1,147 @@
+.card{
+  border: 1px solid hsl(0, 0%, 75%);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.109);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 300px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(240, 100%, 36%);
+}
+
+.card .card-text{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 94%, 26%);
+}
+
+.card .card-age{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: green;
+}
+
+
+.button{
+  background-color: aqua;
+  color: brown;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.own-header{
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background-color: aquamarine;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+}
+
+.own-footer{
+  background-color: rgb(255, 254, 196);
+  max-width: 200px;
+  padding: 2px;
+  text-align: center;
+  margin: 10px;
+}
+
+.food-list{
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  background-color: rgb(240, 240, 220);
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.109);
+  display: inline-block;
+}
+
+.list-category{
+  font-size: 2em; 
+  font-weight: bold;
+  color: slateblue;
+  margin-bottom: 10px;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: aquamarine;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li{
+  font-size: 1em; 
+  list-style: none;
+  color: cadetblue;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  font-size: 1.1em;
+  color: brown;
+  cursor: pointer;
+}
+
+.use-state-test{
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0008ff;
+  max-width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.counter-container{
+  text-align: center;
+  border: 2px solid rebeccapurple;
+  border-radius: 20px;
+  max-width: 360px;
+  padding: 10px;
+  background-color: beige;
+}
+
+.counter-display{
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #0008ff;
+}
+
+.counter-button{
+  width: 100px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0px 5px 5px;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.counter-button:hover{
+  background-color: #0008ff;
+  color: blanchedalmond;
+}
