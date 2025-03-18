@@ -6,6 +6,9 @@ import UseStateTest from './UseStateTest.jsx';
 import Counter from './Counter.jsx';
 import EventHandlerTest from './EventHandlerTest.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import CarObjectUpdate from './CarObjectUpdate.jsx';
+import FoodArrayUpdate from './FoodArrayUpdate.jsx';
+import CarArrayObjectsUpdate from './CarArrayObjectsUpdate.jsx';
 
 function App() {
 
@@ -23,7 +26,9 @@ function App() {
   return (
     <>
       <Header></Header>
-      {fruits.length>0?<FoodList items={fruits} category="Gyümölcsök"></FoodList>:null}
+      <FoodArrayUpdate></FoodArrayUpdate>
+      <CarArrayObjectsUpdate></CarArrayObjectsUpdate>
+{/*      {fruits.length>0?<FoodList items={fruits} category="Gyümölcsök"></FoodList>:null}
       {vegetables.length>0?<FoodList items={vegetables} category="Zöldségek"></FoodList>:null}
       {fruits.length>0 && <FoodList items={fruits} category="Gyümölcsök"></FoodList>}
       {vegetables.length>0 && <FoodList items={vegetables} category="Zöldségek"></FoodList>}
@@ -35,7 +40,8 @@ function App() {
       <Counter></Counter>
       <EventHandlerTest></EventHandlerTest>
       <ColorPicker></ColorPicker>
-      <Footer></Footer>
+      <CarObjectUpdate></CarObjectUpdate>
+      <Footer></Footer>*/}
     </>
   );
 }
