@@ -1,0 +1,12 @@
+.eventHandlerTest{
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0008ff;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+  }
+  

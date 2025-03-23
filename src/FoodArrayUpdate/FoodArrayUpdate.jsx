@@ -1,5 +1,6 @@
 import { element } from "prop-types";
 import React, {useState} from "react";
+import styles from './FoodArrayUpdate.module.css'
 
 function FoodArrayUpdate(){
 
@@ -15,7 +16,7 @@ function FoodArrayUpdate(){
         setFoods(foods.filter((_, i) => i !== index));
     }
 
-    return(<div className="food-array-update">
+    return(<div className={styles.foodArrayUpdate}>
                 <h2>List of food</h2>
                 <ul>
                     {foods.map((food, index) => 

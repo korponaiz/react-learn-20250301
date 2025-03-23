@@ -1,18 +1,19 @@
-import profilePic from './assets/JLH2003.jpg'
-import Button from './Button.jsx'
+import profilePic from './JLH2003.jpg'
+import Button from '../Button.jsx'
 import PropTypes from 'prop-types'
+import styles from './Card.module.css'
 
 function Card(props){
 
     const handleClick = (e) => e.target.style.display = "none";
 
     return(
-        <div className="card">
-            <img className="card-image" onClick={(e) => handleClick(e )} src={profilePic} alt="JLH 2003"></img>
-            <h2  className="card-title" >Név: {props.title}</h2>
-            <p className="card-text" >Foglalkozás: {props.description}</p>
-            <p className="card-age" >Kor: {props.age}</p>
-            <p className="card-text" >Senior: {props.isSenior?"Igen":"Nem"}</p>
+        <div className={styles.card}>
+            <img className={styles.cardImage} onClick={(e) => handleClick(e )} src={profilePic} alt="JLH 2003"></img>
+            <h2  className={styles.cardTitle} >Név: {props.title}</h2>
+            <p className={styles.cardText} >Foglalkozás: {props.description}</p>
+            <p className={styles.cardAge} >Kor: {props.age}</p>
+            <p className={styles.cardText} >Senior: {props.isSenior?"Igen":"Nem"}</p>
             <Button name={props.buttonName} isButton={props.isButton}></Button>
         </div>
     );

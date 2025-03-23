@@ -1,0 +1,38 @@
+.foodList{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 220);
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.109);
+    display: inline-block;
+  }
+  
+  .listCategory{
+    font-size: 2em; 
+    font-weight: bold;
+    color: slateblue;
+    margin-bottom: 10px;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .listItems li{
+    font-size: 1em; 
+    list-style: none;
+    color: cadetblue;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .listItems li:hover{
+    font-size: 1.1em;
+    color: brown;
+    cursor: pointer;
+  }
+  

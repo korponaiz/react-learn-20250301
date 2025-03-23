@@ -1,14 +1,15 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import FoodList from './FoodList.jsx'
-import Card from './Card.jsx';
-import UseStateTest from './UseStateTest.jsx';
-import Counter from './Counter.jsx';
-import EventHandlerTest from './EventHandlerTest.jsx';
-import ColorPicker from './ColorPicker.jsx';
-import CarObjectUpdate from './CarObjectUpdate.jsx';
-import FoodArrayUpdate from './FoodArrayUpdate.jsx';
-import CarArrayObjectsUpdate from './CarArrayObjectsUpdate.jsx';
+import FoodList from './FoodList/FoodList.jsx'
+import Card from './Card/Card.jsx';
+import UseStateTest from './UseStateTest/UseStateTest.jsx';
+import Counter from './Counter/Counter.jsx';
+import EventHandlerTest from './EventHandlerTest/EventHandlerTest.jsx';
+import ColorPicker from './ColorPicker/ColorPicker.jsx';
+import CarObjectUpdate from './CarObjectUpdate/CarObjectUpdate.jsx';
+import FoodArrayUpdate from './FoodArrayUpdate/FoodArrayUpdate.jsx';
+import CarArrayObjectsUpdate from './CarArrayObjectsUpdate/CarArrayObjectsUpdate.jsx';
+import ToDoList from './ToDoList/ToDoList.jsx';
 
 function App() {
 
@@ -26,9 +27,9 @@ function App() {
   return (
     <>
       <Header></Header>
-      <FoodArrayUpdate></FoodArrayUpdate>
-      <CarArrayObjectsUpdate></CarArrayObjectsUpdate>
-{/*      {fruits.length>0?<FoodList items={fruits} category="Gyümölcsök"></FoodList>:null}
+      <ToDoList></ToDoList>
+ {/*      <CarArrayObjectsUpdate></CarArrayObjectsUpdate>
+      {fruits.length>0?<FoodList items={fruits} category="Gyümölcsök"></FoodList>:null}
       {vegetables.length>0?<FoodList items={vegetables} category="Zöldségek"></FoodList>:null}
       {fruits.length>0 && <FoodList items={fruits} category="Gyümölcsök"></FoodList>}
       {vegetables.length>0 && <FoodList items={vegetables} category="Zöldségek"></FoodList>}
@@ -38,9 +39,10 @@ function App() {
       <Card></Card>
       <UseStateTest></UseStateTest>
       <Counter></Counter>
-      <EventHandlerTest></EventHandlerTest>
       <ColorPicker></ColorPicker>
+      <EventHandlerTest></EventHandlerTest>
       <CarObjectUpdate></CarObjectUpdate>
+      <FoodArrayUpdate></FoodArrayUpdate>
       <Footer></Footer>*/}
     </>
   );

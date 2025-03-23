@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import styles from './EventHandlerTest.module.css'
 
 function EventHandlerTest(){
 
@@ -28,7 +29,7 @@ function EventHandlerTest(){
         setShipping(event.target.value);
     }
 
-    return (<div className="use-state-test">
+    return (<div className={styles.eventHandlerTest}>
                 <input value={name} onChange={handleNameChange}></input>
                 <p>Name: {name}</p>
                 <input value={quantity} onChange={handleQuantityChange} type="number"></input>

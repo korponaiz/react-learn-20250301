@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import styles from './FoodList.module.css'
 
 function FoodList(props){
 
@@ -13,9 +13,9 @@ function FoodList(props){
                                 <b>{fruit.calories}</b>
                                 </li>);
     return(
-        <div className="food-list">
-            <h3 className="list-category">{props.category}</h3>
-            <ul className="list-items">{listItems}</ul>
+        <div className={styles.foodList}>
+            <h3 className={styles.listCategory}>{props.category}</h3>
+            <ul className={styles.listItems}>{listItems}</ul>
         </div>
     );
 }

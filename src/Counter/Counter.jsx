@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import styles from './Counter.module.css'
 function Counter() {
 
     const [count, setCount] = useState(0);
@@ -19,11 +19,11 @@ function Counter() {
         setCount(0);
     }
 
-    return( <div className="counter-container">
-                <p className="counter-display">{count}</p>
-                <button className="counter-button" onClick={decrement}>Decrement</button>
-                <button className="counter-button" onClick={reset}>Reset</button>
-                <button className="counter-button" onClick={increment}>Increment</button>
+    return( <div className={styles.counterContainer}>
+                <p className={styles.counterDisplay}>{count}</p>
+                <button className={styles.counterButton} onClick={decrement}>Decrement</button>
+                <button className={styles.counterButton} onClick={reset}>Reset</button>
+                <button className={styles.counterButton} onClick={increment}>Increment</button>
             </div>
 
     );

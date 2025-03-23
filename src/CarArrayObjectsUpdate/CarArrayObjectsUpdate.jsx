@@ -1,5 +1,6 @@
 import { element } from "prop-types";
 import React, {useState} from "react";
+import styles from './CarArrayObjectsUpdate.module.css'
 
 function CarArrayObjectsUpdate(){
     const [cars, setCars] = useState([]);
@@ -28,7 +29,7 @@ function CarArrayObjectsUpdate(){
         setCarModel(event.target.value);
     }
 
-    return(<div className="car-array-object-update">
+    return(<div className={styles.carArrayObjectsUpdate}>
                 <h2>List of Car Objects</h2>
                 <ul>
                     {cars.map((car, index) =>

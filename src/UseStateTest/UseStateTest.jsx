@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import styles from './UseStateTest.module.css'
 
 function UseStateTest(){
 
@@ -18,7 +19,7 @@ function UseStateTest(){
         setIsEmployeed(!isEmployeed);
     }
 
-    return( <div className="use-state-test">
+    return( <div className={styles.useStateTest}>
                 <p>Name: {name}</p>
                 <button onClick={updateName}>Set name</button>
                 <p>Age: {age}</p>
