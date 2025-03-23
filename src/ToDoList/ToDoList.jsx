@@ -7,7 +7,7 @@ function ToDoList(){
     const [newTask, setNewTask] = useState("");
 
     function handleInputChange(event){
-        setNewTask=(event.target.value);
+        setNewTask(event.target.value);
     }
 
     function addTask(){
@@ -18,15 +18,26 @@ function ToDoList(){
     }
 
     function deleteTask(index){
-
+        const updatedTask = tasks.filter((element, i) => i !== index);
+        setTasks(updatedTask);
     }
     
     function moveTaskUp(index){
-
+        if(index > 0){
+            const updatedTasks = [...tasks];
+            [updatedTasks[index], updatedTasks[index - 1]] = 
+            [updatedTasks[index - 1], updatedTasks[index]];
+            setTasks(updatedTasks);
+        }
     }
 
     function moveTaskDown(index){
-
+        if(index < tasks.length - 1){
+            const updatedTasks = [...tasks];
+            [updatedTasks[index], updatedTasks[index + 1]] = 
+            [updatedTasks[index + 1], updatedTasks[index]];
+            setTasks(updatedTasks);
+        }
     }
 
     return(

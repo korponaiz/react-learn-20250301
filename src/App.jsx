@@ -10,6 +10,7 @@ import CarObjectUpdate from './CarObjectUpdate/CarObjectUpdate.jsx';
 import FoodArrayUpdate from './FoodArrayUpdate/FoodArrayUpdate.jsx';
 import CarArrayObjectsUpdate from './CarArrayObjectsUpdate/CarArrayObjectsUpdate.jsx';
 import ToDoList from './ToDoList/ToDoList.jsx';
+import Test01 from './Test01/Test01.jsx';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
       <EventHandlerTest></EventHandlerTest>
       <CarObjectUpdate></CarObjectUpdate>
       <FoodArrayUpdate></FoodArrayUpdate>
+      <Test01></Test01>
       <Footer></Footer>*/}
     </>
   );
