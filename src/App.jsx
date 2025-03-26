@@ -11,6 +11,8 @@ import FoodArrayUpdate from './FoodArrayUpdate/FoodArrayUpdate.jsx';
 import CarArrayObjectsUpdate from './CarArrayObjectsUpdate/CarArrayObjectsUpdate.jsx';
 import ToDoList from './ToDoList/ToDoList.jsx';
 import Test01 from './Test01/Test01.jsx';
+import UseEffect from './UseEffect/UseEffect.jsx';
+import UseEffect2 from './UseEffect/UseEffect2.jsx';
 
 function App() {
 
@@ -28,7 +30,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <ToDoList></ToDoList>
+      <UseEffect2></UseEffect2>
  {/*      <CarArrayObjectsUpdate></CarArrayObjectsUpdate>
       {fruits.length>0?<FoodList items={fruits} category="Gyümölcsök"></FoodList>:null}
       {vegetables.length>0?<FoodList items={vegetables} category="Zöldségek"></FoodList>:null}
@@ -44,6 +46,8 @@ function App() {
       <EventHandlerTest></EventHandlerTest>
       <CarObjectUpdate></CarObjectUpdate>
       <FoodArrayUpdate></FoodArrayUpdate>
+      <ToDoList></ToDoList>
+      <UseEffect></UseEffect>
       <Test01></Test01>
       <Footer></Footer>*/}
     </>
