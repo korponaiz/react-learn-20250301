@@ -17,6 +17,7 @@ import DigitalClock from './DigitalClock/DigitalClock.jsx';
 import UseContext from './UseContext/UseContext.jsx';
 import UseContext2 from './UseContext/UseContext2.jsx';
 import UseRef from './UseRef/UseRef.jsx';
+import StopWatch from './StopWatch/StopWatch.jsx';
 
 function App() {
 
@@ -34,7 +35,9 @@ function App() {
   return (
     <>
       <Header></Header>
-      <UseRef></UseRef>
+      <StopWatch></StopWatch>
+      <StopWatch></StopWatch>
+      <StopWatch></StopWatch>
  {/*      <CarArrayObjectsUpdate></CarArrayObjectsUpdate>
       {fruits.length>0?<FoodList items={fruits} category="Gyümölcsök"></FoodList>:null}
       {vegetables.length>0?<FoodList items={vegetables} category="Zöldségek"></FoodList>:null}
@@ -56,6 +59,7 @@ function App() {
       <DigitalClock></DigitalClock>
       <UseContext></UseContext>
       <UseContext2></UseContext2>
+      <UseRef></UseRef>
       <Test01></Test01>
       <Footer></Footer>*/}
     </>

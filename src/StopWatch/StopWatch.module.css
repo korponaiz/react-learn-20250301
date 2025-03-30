@@ -1,0 +1,42 @@
+.stopWatch{
+    border: 3px;
+    border-color: blue;
+    opacity: 0.8;
+    background-color: rgb(231, 251, 77);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.display{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+    margin: 21px;
+}
+.startButton, .stopButton, .resetButton{
+    color: rgb(157, 232, 247);
+    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.startButton{
+    background-color: darkgreen;
+}
+.startButton:hover{
+    background-color: rgb(0, 205, 0);
+}
+.stopButton{
+    background-color: darkblue;
+}
+.stopButton:hover{
+    background-color: rgb(35, 35, 249);
+}
+.resetButton{
+    background-color: darkred;
+}
+.resetButton:hover{
+    background-color: red;
+}
